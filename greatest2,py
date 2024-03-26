@@ -1,0 +1,12 @@
+a=int(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+c=int(input("enter 3rd number:"))
+if a>b:
+    if a>c:
+        print("the number", a,"is the greatest")
+    else:
+        print("the number", c,"is the greatest")
+elif b>c:
+    print("the number", b,"is the greatest")
+else:
+    print("the number", c,"is the greatest")
